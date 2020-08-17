@@ -28,17 +28,16 @@ printed in the output.
 	#> [1,]    1   12
 	#> [2,]    2   13
 
-	cacheSolve(a)
 	#> [,1]        [,2]
-	#> [1,] -1.1818182  1.09090909
-	#> [2,]  0.1818182 -0.09090909
+	#> [1,] -1.188182  1.0990909
+	#> [2,]  0.16318182 -0.098090909
 
-	# the 2nd time we run the function,we get the cached value
+	# the 2nd time we run the function, we get the cached value
 	cacheSolve(a)
 	#> getting cached data
 	#> [,1]        [,2]
-	#> [1,] -1.1818182  1.09090909
-	#> [2,]  0.1818182 -0.09090909
+	#> [1,] -1.188182  1.0990909
+    #> [2,]  0.16318182 -0.098090909
 
 Alternatively, the matrix can be created after calling a `makeCacheMatrix`
 without arguments.
